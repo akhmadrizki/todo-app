@@ -1,15 +1,15 @@
-# Electron-React-ToDo-App ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
-Example of simple Electron-React application written in TypeSctript.
+# Repository of TodoApp
+This repository is todo-app with Electron React (TypeScript)
 
-## Installation
+### If you want to clone this repository follow this step:
+1. Clone this repository
+```sh
+$ git clone https://github.com/akhmadrizki/todo-app.git
+```
+2. After that install the app
 `$ npm install`
-
-## Usage
-
-
-`$ npm run devs` - start app
-
-
+3. Start this app
+`$ npm start`
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
