@@ -83,7 +83,7 @@ export default class App extends Component<IAppProps, IAppState>{
         return (
           <div className="App">
             <header>
-                <h1 className="display-3">Electron-React App</h1>
+                <h1 className="display-3">Todo App</h1>
             </header>
             <Input onChange={this.handleChange} onSubmit={this.handleSubmit} val={this.state.item.task}/>
             <TasksList onClick={this.buttonHandle} tasks={this.state.items}/>

@@ -46,10 +46,6 @@ function createWindow() {
         mainWindow.hide();
     });
 
-    // when window not responding
-    // mainWindow.on("unresponsive", () => {
-    //     mainWindow.close();
-    // });
     // Emitted when the window is closed.
     mainWindow.on('closed', () => {
         mainWindow = null;
@@ -82,13 +78,8 @@ function createChildrenWindow(){
     childrenWindow.on("session-end", () => {
         childrenWindow = null;
     });
-    
-    // when window not responding
-    // childrenWindow.on("unresponsive", () => {
-    //     childrenWindow.close();
-    // });
-    // Emitted when the window is closed.
 
+    // Emitted when the window is closed.
     childrenWindow.on("minimize", () => {
         childrenWindow = null;
         mainWindow.show();

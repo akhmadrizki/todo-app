@@ -11,7 +11,7 @@ export default class Input extends Component<IInputProps, IInputState>{
                 <form className="form-inline my-2 my-lg-0" onSubmit={(e) => this.props.onSubmit(e)}>
                     <input 
                     className="form-control mr-sm-2" 
-                    placeholder="What needs to be done?" 
+                    placeholder="What you want to do?" 
                     value={this.props.val} 
                     name="item" 
                     type="text" 
